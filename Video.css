@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  
+}
+main>#cont{
+    animation: multicolor 20s infinite;
+    width: 30%;
+    border-radius: 5px;
+    position: relative;
+   
+
+}
+main>#cont>img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+main>#cont>h4{
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+main>#cont>#duration{
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+main>#cont>video{
+    width: 100%;
+    height: 30vh;
+}
+main>#cont>#volume{
+    transform: rotate(270deg);
+    position: absolute;
+    left: 77%;
+    top: 87%;
+
+}
+
+main>#cont>#act_controls{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin:0;
+    padding: 0;
+    height: 10vh;
+    background-color: palevioletred;
+    color: red;
+}
+
